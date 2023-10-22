@@ -1,0 +1,34 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,h2,h3 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  width: 100vw;
+  background: #a1a1a1;
+
+  header {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .header {
+    height: 20vh;
+    background: aquamarine;
+    text-align: center;
+    padding-top: 10vh;
+    color: #eccc0c;
+
+    &:hover {
+      color: black;
+      font-size: 2rem;
+    }
+  }
+}
